@@ -21,7 +21,13 @@ namespace ATMApp
             Balance = balance;
         }
     }
-
+public class ATMService
+{
+    public static Account GetAccountByCardNumber(List<Account> accounts, string cardNumber)
+    {
+        return accounts.FirstOrDefault(a => a.CardNumber == cardNumber);
+    }
+}
     public class AutomatedTellerMachine
     {
         public string ATMId { get; set; }
