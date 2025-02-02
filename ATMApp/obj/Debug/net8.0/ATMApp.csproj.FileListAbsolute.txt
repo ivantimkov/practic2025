@@ -1,0 +1,11 @@
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\bin\Debug\net8.0\ATMApp.deps.json
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\bin\Debug\net8.0\ATMApp.dll
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\bin\Debug\net8.0\ATMApp.pdb
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ATMApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ATMApp.AssemblyInfoInputs.cache
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ATMApp.AssemblyInfo.cs
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ATMApp.csproj.CoreCompileInputs.cache
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ATMApp.dll
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\refint\ATMApp.dll
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ATMApp.pdb
+C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ref\ATMApp.dll

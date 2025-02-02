@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ATMWindowsApp</id>
+    <version>1.0.0</version>
+    <authors>ATMWindowsApp</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="ATMApp" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Learn ZTU\C#\Lab1\lab1\ATMWindowsApp\bin\Debug\net8.0-windows\ATMWindowsApp.runtimeconfig.json" target="lib\net8.0-windows7.0\ATMWindowsApp.runtimeconfig.json" />
+    <file src="C:\Learn ZTU\C#\Lab1\lab1\ATMWindowsApp\bin\Debug\net8.0-windows\ATMWindowsApp.dll" target="lib\net8.0-windows7.0\ATMWindowsApp.dll" />
+  </files>
+</package>
