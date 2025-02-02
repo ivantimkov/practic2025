@@ -1,6 +1,6 @@
-﻿// Бібліотека класів
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Mail;
 
@@ -27,12 +27,14 @@ namespace ATMApp
         public string ATMId { get; set; }
         public string Address { get; set; }
         public decimal TotalCash { get; set; }
+        private readonly EmailService _emailService;
 
         public AutomatedTellerMachine(string atmId, string address, decimal totalCash)
         {
             ATMId = atmId;
             Address = address;
             TotalCash = totalCash;
+            _emailService = new EmailService();
         }
 
         public event Action<string> OperationEvent;
@@ -87,21 +89,40 @@ namespace ATMApp
 
         public void SendEmailNotification(string toEmail, string subject, string body)
         {
+            _emailService.SendEmail(toEmail, subject, body);
+        }
+    }
+
+    public class EmailService
+    {
+        private readonly string _smtpServer;
+        private readonly int _port;
+        private readonly string _email;
+        private readonly string _password;
+
+        public EmailService()
+        {
+            _smtpServer = Environment.GetEnvironmentVariable("SMTP_SERVER") ?? "smtp.gmail.com";
+            _port = int.Parse(Environment.GetEnvironmentVariable("SMTP_PORT") ?? "587");
+            _email = Environment.GetEnvironmentVariable("SMTP_EMAIL") ?? "your-email@gmail.com";
+            _password = Environment.GetEnvironmentVariable("SMTP_PASSWORD") ?? "your-password";
+        }
+
+        public void SendEmail(string toEmail, string subject, string body)
+        {
             try
             {
-                var smtpClient = new SmtpClient("smtp.gmail.com")
+                var smtpClient = new SmtpClient(_smtpServer)
                 {
-                    Port = 587,
-                    Credentials = new NetworkCredential("your-email@gmail.com", "your-password"),
+                    Port = _port,
+                    Credentials = new NetworkCredential(_email, _password),
                     EnableSsl = true
                 };
-
-                smtpClient.Send("your-email@gmail.com", toEmail, subject, body);
-                OperationEvent?.Invoke("Email notification sent.");
+                smtpClient.Send(_email, toEmail, subject, body);
             }
             catch (Exception ex)
             {
-                OperationEvent?.Invoke($"Failed to send email: {ex.Message}");
+                Console.WriteLine($"Failed to send email: {ex.Message}");
             }
         }
     }
