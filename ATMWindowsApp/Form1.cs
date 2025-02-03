@@ -23,7 +23,7 @@ namespace ATMWindowsApp
 
             atm.OperationEvent += message => MessageBox.Show(message, "ATM Notification");
 
-            // Add a sample account
+           
             currentAccount = new Account("1234567890123456", "1234", "John Doe", 1000);
         }
 
@@ -34,12 +34,11 @@ namespace ATMWindowsApp
             string cardNumber = txtCardNumber.Text;
             string pin = txtPin.Text;
 
-            // Перевірка даних
             if (cardNumber == currentAccount.CardNumber && atm.Authenticate(currentAccount, pin))
             {
                 MessageBox.Show($"Welcome, {currentAccount.FullName}!\nYour current balance is: {currentAccount.Balance:C}", "Authentication Successful");
 
-                // Оновлення тексту в інтерфейсі
+               
                 lblWelcome.Text = $"Welcome, {currentAccount.FullName}";
                 lblBalance.Text = $"Balance: {currentAccount.Balance:C}";
                 txtAmount.Text = currentAccount.Balance.ToString("F2");
@@ -52,7 +51,7 @@ namespace ATMWindowsApp
 
         private Account GetReceiverAccount()
         {
-            // Dummy implementation for receiver's account
+         
             return new Account("9876543210987654", "5678", "Jane Smith", 500);
         }
 
@@ -131,7 +130,6 @@ namespace ATMWindowsApp
                 try
                 {
                     decimal amount = decimal.Parse(txtAmount.Text);
-                    // Assuming you have a method to get receiver's account
                     Account receiverAccount = GetReceiverAccount();
 
                     if (receiverAccount != null && atm.Transfer(currentAccount, receiverAccount, amount))
@@ -154,6 +152,11 @@ namespace ATMWindowsApp
             {
                 MessageBox.Show("Please authenticate first.", "ATM");
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

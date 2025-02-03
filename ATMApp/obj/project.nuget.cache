@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0J5leJZxunI=",
+  "dgSpecHash": "yNJH7Wd261o=",
   "success": true,
-  "projectFilePath": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMApp\\ATMApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\practic2025-main\\practic2025\\ATMApp\\ATMApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\riplo\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.102\\microsoft.net.sdk.compilers.toolset.9.0.102.nupkg.sha512",
+    "C:\\Users\\riplo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\riplo\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\riplo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.12\\microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

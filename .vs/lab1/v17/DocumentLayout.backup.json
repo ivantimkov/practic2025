@@ -1,38 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\",
+  "WorkspaceRootPath": "D:\\practic2025-main\\practic2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|c:\\learn ztu\\c#\\lab1\\lab1\\atmwindowsapp\\atmwindowsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|solutionrelative:atmwindowsapp\\atmwindowsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|c:\\learn ztu\\c#\\lab1\\lab1\\atmwindowsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|solutionrelative:atmwindowsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A7CED88-FF33-4601-A0B5-58AF92A6B87E}|ATMConsoleApp\\ATMConsoleApp.csproj|c:\\learn ztu\\c#\\lab1\\lab1\\atmconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A7CED88-FF33-4601-A0B5-58AF92A6B87E}|ATMConsoleApp\\ATMConsoleApp.csproj|d:\\practic2025-main\\practic2025\\atmconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A7CED88-FF33-4601-A0B5-58AF92A6B87E}|ATMConsoleApp\\ATMConsoleApp.csproj|solutionrelative:atmconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|c:\\learn ztu\\c#\\lab1\\lab1\\atmwindowsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|solutionrelative:atmwindowsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF061B1D-0BB5-4960-B7F3-6C5B0D390A7E}|ATMApp\\ATMApp.csproj|c:\\learn ztu\\c#\\lab1\\lab1\\atmapp\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF061B1D-0BB5-4960-B7F3-6C5B0D390A7E}|ATMApp\\ATMApp.csproj|d:\\practic2025-main\\practic2025\\atmapp\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF061B1D-0BB5-4960-B7F3-6C5B0D390A7E}|ATMApp\\ATMApp.csproj|solutionrelative:atmapp\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A7CED88-FF33-4601-A0B5-58AF92A6B87E}|ATMConsoleApp\\ATMConsoleApp.csproj|c:\\learn ztu\\c#\\lab1\\lab1\\atmconsoleapp\\atmconsoleapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{2A7CED88-FF33-4601-A0B5-58AF92A6B87E}|ATMConsoleApp\\ATMConsoleApp.csproj|solutionrelative:atmconsoleapp\\atmconsoleapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|c:\\learn ztu\\c#\\lab1\\lab1\\atmwindowsapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|solutionrelative:atmwindowsapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|c:\\learn ztu\\c#\\lab1\\lab1\\atmwindowsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|solutionrelative:atmwindowsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,111 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "ATMWindowsApp\\Form1.Designer.cs",
-              "ToolTip": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\Form1.Designer.cs",
-              "RelativeToolTip": "ATMWindowsApp\\Form1.Designer.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAowFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T14:19:04.269Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\Form1.cs",
-              "RelativeDocumentMoniker": "ATMWindowsApp\\Form1.cs",
-              "ToolTip": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\Form1.cs",
-              "RelativeToolTip": "ATMWindowsApp\\Form1.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T14:29:41.97Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\Form1.cs",
-              "RelativeDocumentMoniker": "ATMWindowsApp\\Form1.cs",
-              "ToolTip": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\Form1.cs [Design]",
-              "RelativeToolTip": "ATMWindowsApp\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T12:04:39.661Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\Program.cs",
-              "RelativeDocumentMoniker": "ATMWindowsApp\\Program.cs",
-              "ToolTip": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\Program.cs",
-              "RelativeToolTip": "ATMWindowsApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T12:04:27.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMConsoleApp\\Program.cs",
-              "RelativeDocumentMoniker": "ATMConsoleApp\\Program.cs",
-              "ToolTip": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMConsoleApp\\Program.cs",
-              "RelativeToolTip": "ATMConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T11:58:24.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMApp\\Class1.cs",
+              "DocumentMoniker": "D:\\practic2025-main\\practic2025\\ATMApp\\Class1.cs",
               "RelativeDocumentMoniker": "ATMApp\\Class1.cs",
-              "ToolTip": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMApp\\Class1.cs",
+              "ToolTip": "D:\\practic2025-main\\practic2025\\ATMApp\\Class1.cs",
               "RelativeToolTip": "ATMApp\\Class1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T11:44:18.256Z",
+              "WhenOpened": "2025-02-03T17:38:59.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ATMWindowsApp.csproj",
-              "DocumentMoniker": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\ATMWindowsApp.csproj",
-              "RelativeDocumentMoniker": "ATMWindowsApp\\ATMWindowsApp.csproj",
-              "ToolTip": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMWindowsApp\\ATMWindowsApp.csproj",
-              "RelativeToolTip": "ATMWindowsApp\\ATMWindowsApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-14T14:57:09.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ATMConsoleApp.csproj",
-              "DocumentMoniker": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMConsoleApp\\ATMConsoleApp.csproj",
-              "RelativeDocumentMoniker": "ATMConsoleApp\\ATMConsoleApp.csproj",
-              "ToolTip": "C:\\Learn ZTU\\C#\\Lab1\\lab1\\ATMConsoleApp\\ATMConsoleApp.csproj",
-              "RelativeToolTip": "ATMConsoleApp\\ATMConsoleApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-16T11:45:47.782Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\practic2025-main\\practic2025\\ATMConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "ATMConsoleApp\\Program.cs",
+              "ToolTip": "D:\\practic2025-main\\practic2025\\ATMConsoleApp\\Program.cs",
+              "RelativeToolTip": "ATMConsoleApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:38:58.16Z",
               "EditorCaption": ""
             }
           ]
