@@ -18,3 +18,14 @@ C:\Learn ZTU\C#\Lab1\lab1\ATMWindowsApp\obj\Debug\net8.0-windows\refint\ATMWindo
 C:\Learn ZTU\C#\Lab1\lab1\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.pdb
 C:\Learn ZTU\C#\Lab1\lab1\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.genruntimeconfig.cache
 C:\Learn ZTU\C#\Lab1\lab1\ATMWindowsApp\obj\Debug\net8.0-windows\ref\ATMWindowsApp.dll
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.csproj.AssemblyReference.cache
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.Form1.resources
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.csproj.GenerateResource.cache
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.AssemblyInfoInputs.cache
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.AssemblyInfo.cs
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.csproj.CoreCompileInputs.cache
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.sourcelink.json
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.dll
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\refint\ATMWindowsApp.dll
+D:\practic2025-main\practic2025\ATMWindowsApp\obj\Debug\net8.0-windows\ATMWindowsApp.pdb
