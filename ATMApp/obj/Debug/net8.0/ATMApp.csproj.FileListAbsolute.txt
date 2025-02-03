@@ -9,3 +9,15 @@ C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ATMApp.dll
 C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\refint\ATMApp.dll
 C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ATMApp.pdb
 C:\Learn ZTU\C#\Lab1\lab1\ATMApp\obj\Debug\net8.0\ref\ATMApp.dll
+D:\practic2025-main\practic2025\ATMApp\bin\Debug\net8.0\ATMApp.deps.json
+D:\practic2025-main\practic2025\ATMApp\bin\Debug\net8.0\ATMApp.dll
+D:\practic2025-main\practic2025\ATMApp\bin\Debug\net8.0\ATMApp.pdb
+D:\practic2025-main\practic2025\ATMApp\obj\Debug\net8.0\ATMApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\practic2025-main\practic2025\ATMApp\obj\Debug\net8.0\ATMApp.AssemblyInfoInputs.cache
+D:\practic2025-main\practic2025\ATMApp\obj\Debug\net8.0\ATMApp.AssemblyInfo.cs
+D:\practic2025-main\practic2025\ATMApp\obj\Debug\net8.0\ATMApp.csproj.CoreCompileInputs.cache
+D:\practic2025-main\practic2025\ATMApp\obj\Debug\net8.0\ATMApp.sourcelink.json
+D:\practic2025-main\practic2025\ATMApp\obj\Debug\net8.0\ATMApp.dll
+D:\practic2025-main\practic2025\ATMApp\obj\Debug\net8.0\refint\ATMApp.dll
+D:\practic2025-main\practic2025\ATMApp\obj\Debug\net8.0\ATMApp.pdb
+D:\practic2025-main\practic2025\ATMApp\obj\Debug\net8.0\ref\ATMApp.dll

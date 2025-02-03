@@ -21,13 +21,15 @@ namespace ATMApp
             Balance = balance;
         }
     }
-public class ATMService
-{
-    public static Account GetAccountByCardNumber(List<Account> accounts, string cardNumber)
+
+    public class ATMService
     {
-        return accounts.FirstOrDefault(a => a.CardNumber == cardNumber);
+        public static Account GetAccountByCardNumber(List<Account> accounts, string cardNumber)
+        {
+            return accounts.FirstOrDefault(a => a.CardNumber == cardNumber);
+        }
     }
-}
+
     public class AutomatedTellerMachine
     {
         public string ATMId { get; set; }
@@ -58,16 +60,23 @@ public class ATMService
             return account.Balance;
         }
 
-        public bool Withdraw(Account account, decimal amount)
+        private bool TryDeductAmount(Account account, decimal amount)
         {
             if (amount > account.Balance || amount > TotalCash)
             {
-                OperationEvent?.Invoke("Withdrawal failed: Insufficient funds.");
+                OperationEvent?.Invoke("Transaction failed: Insufficient funds.");
                 return false;
             }
 
             account.Balance -= amount;
             TotalCash -= amount;
+            return true;
+        }
+
+        public bool Withdraw(Account account, decimal amount)
+        {
+            if (!TryDeductAmount(account, amount)) return false;
+
             OperationEvent?.Invoke($"Withdrawal successful. Amount: {amount:C}");
             return true;
         }
@@ -81,13 +90,8 @@ public class ATMService
 
         public bool Transfer(Account sender, Account receiver, decimal amount)
         {
-            if (amount > sender.Balance)
-            {
-                OperationEvent?.Invoke("Transfer failed: Insufficient funds.");
-                return false;
-            }
+            if (!TryDeductAmount(sender, amount)) return false;
 
-            sender.Balance -= amount;
             receiver.Balance += amount;
             OperationEvent?.Invoke($"Transfer successful. Amount: {amount:C}");
             return true;
