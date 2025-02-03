@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\practic2025-main\\practic2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A7CED88-FF33-4601-A0B5-58AF92A6B87E}|ATMConsoleApp\\ATMConsoleApp.csproj|d:\\practic2025-main\\practic2025\\atmconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A7CED88-FF33-4601-A0B5-58AF92A6B87E}|ATMConsoleApp\\ATMConsoleApp.csproj|solutionrelative:atmconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|d:\\practic2025-main\\practic2025\\atmwindowsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B4A50F-41C0-411B-9945-B7390E7896E9}|ATMWindowsApp\\ATMWindowsApp.csproj|solutionrelative:atmwindowsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF061B1D-0BB5-4960-B7F3-6C5B0D390A7E}|ATMApp\\ATMApp.csproj|d:\\practic2025-main\\practic2025\\atmapp\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF061B1D-0BB5-4960-B7F3-6C5B0D390A7E}|ATMApp\\ATMApp.csproj|solutionrelative:atmapp\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7CED88-FF33-4601-A0B5-58AF92A6B87E}|ATMConsoleApp\\ATMConsoleApp.csproj|d:\\practic2025-main\\practic2025\\atmconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A7CED88-FF33-4601-A0B5-58AF92A6B87E}|ATMConsoleApp\\ATMConsoleApp.csproj|solutionrelative:atmconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\practic2025-main\\practic2025\\ATMWindowsApp\\Program.cs",
+              "RelativeDocumentMoniker": "ATMWindowsApp\\Program.cs",
+              "ToolTip": "D:\\practic2025-main\\practic2025\\ATMWindowsApp\\Program.cs",
+              "RelativeToolTip": "ATMWindowsApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:53:50.207Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "ATMApp\\Class1.cs",
               "ToolTip": "D:\\practic2025-main\\practic2025\\ATMApp\\Class1.cs",
               "RelativeToolTip": "ATMApp\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T17:38:59.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\practic2025-main\\practic2025\\ATMConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "ATMConsoleApp\\Program.cs",
