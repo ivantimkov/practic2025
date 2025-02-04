@@ -8,20 +8,45 @@ namespace ATMApp
 {
     public class Account
     {
-        public string CardNumber { get; set; }
-        public string PinCode { get; set; }
-        public string FullName { get; set; }
-        public decimal Balance { get; set; }
+        public string CardNumber { get; }
+        public string PinCode { get; private set; }
+        public string FullName { get; }
+        private decimal balance;
+
+        public decimal Balance => balance;
 
         public Account(string cardNumber, string pinCode, string fullName, decimal balance)
         {
             CardNumber = cardNumber;
             PinCode = pinCode;
             FullName = fullName;
-            Balance = balance;
+            this.balance = balance;
         }
+
+        public bool Withdraw(decimal amount)
+        {
+            if (amount > balance)
+                return false;
+
+            balance -= amount;
+            return true;
+        }
+
+        public void Deposit(decimal amount)
+        {
+            balance += amount;
+        }
+        public bool Transfer(Account receiver, decimal amount)
+        {
+            if (!Withdraw(amount)) return false;
+
+            receiver.Deposit(amount);
+            return true;
+        }
+
     }
-public class ATMService
+
+    public class ATMService
 {
     public static Account GetAccountByCardNumber(List<Account> accounts, string cardNumber)
     {
@@ -60,13 +85,12 @@ public class ATMService
 
         public bool Withdraw(Account account, decimal amount)
         {
-            if (amount > account.Balance || amount > TotalCash)
+            if (!account.Withdraw(amount) || amount > TotalCash)
             {
                 OperationEvent?.Invoke("Withdrawal failed: Insufficient funds.");
                 return false;
             }
 
-            account.Balance -= amount;
             TotalCash -= amount;
             OperationEvent?.Invoke($"Withdrawal successful. Amount: {amount:C}");
             return true;
@@ -74,24 +98,23 @@ public class ATMService
 
         public void Deposit(Account account, decimal amount)
         {
-            account.Balance += amount;
+            account.Deposit(amount);
             TotalCash += amount;
             OperationEvent?.Invoke($"Deposit successful. Amount: {amount:C}");
         }
 
         public bool Transfer(Account sender, Account receiver, decimal amount)
         {
-            if (amount > sender.Balance)
+            if (!sender.Transfer(receiver, amount))
             {
                 OperationEvent?.Invoke("Transfer failed: Insufficient funds.");
                 return false;
             }
 
-            sender.Balance -= amount;
-            receiver.Balance += amount;
             OperationEvent?.Invoke($"Transfer successful. Amount: {amount:C}");
             return true;
         }
+
 
         public void SendEmailNotification(string toEmail, string subject, string body)
         {
