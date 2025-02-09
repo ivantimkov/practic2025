@@ -84,26 +84,24 @@ namespace ATMWindowsApp
             }
         }
 
-        private void btnDeposit_Click_1(object sender, EventArgs e)
+        private void btnDeposit_Click(object sender, EventArgs e)
         {
-            if (currentAccount != null)
-            {
-                try
-                {
-                    decimal amount = decimal.Parse(txtAmount.Text);
-                    atm.Deposit(currentAccount, amount);
-                    MessageBox.Show($"Successfully deposited {amount:C}. New balance: {currentAccount.Balance:C}", "ATM");
-                    UpdateBalance();
-                    txtAmount.Text = "";
-                }
-                catch
-                {
-                    MessageBox.Show("Invalid amount. Please enter a valid number.", "ATM");
-                }
-            }
-            else
+            if (currentAccount == null)
             {
                 MessageBox.Show("Please authenticate first.", "ATM");
+                return;
+            }
+        
+            if (!decimal.TryParse(txtAmount.Text, out decimal amount) || amount <= 0)
+            {
+                MessageBox.Show("Invalid amount. Please enter a valid positive number.", "ATM");
+                return;
+            }
+        
+            if (atmService.Deposit(currentAccount, amount))
+            {
+                MessageBox.Show($"Successfully deposited {amount:C}. New balance: {currentAccount.Balance:C}", "ATM");
+                UpdateBalance();
             }
         }
 
