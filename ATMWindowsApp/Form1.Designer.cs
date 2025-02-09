@@ -92,7 +92,7 @@
             btnDeposit.TabIndex = 5;
             btnDeposit.Text = "Депозит";
             btnDeposit.UseVisualStyleBackColor = true;
-            btnDeposit.Click += btnDeposit_Click_1;
+            btnDeposit.Click += btnDeposit_Click;
             // 
             // btnTransfer
             // 
