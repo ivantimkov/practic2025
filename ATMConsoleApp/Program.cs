@@ -53,9 +53,11 @@ class Program
                     break;
                 case "2":
                     Console.Write("Enter amount to withdraw: ");
-                    if (decimal.TryParse(Console.ReadLine(), out decimal withdrawAmount))
+                    string input = Console.ReadLine();
+                    if (!decimal.TryParse(input, out decimal withdrawAmount) || withdrawAmount <= 0)
                     {
                         atm.Withdraw(currentAccount, withdrawAmount);
+                        continue;
                     }
                     break;
                 case "3":
