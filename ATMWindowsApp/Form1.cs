@@ -28,18 +28,26 @@ namespace ATMWindowsApp
         }
 
 
+        private Account GetAccountByCardNumber(string cardNumber)
+        {
+            return accounts.FirstOrDefault(acc => acc.CardNumber == cardNumber);
+        } 
+
+
 
         private void btnAuthenticate_Click(object sender, EventArgs e)
         {
             string cardNumber = txtCardNumber.Text;
             string pin = txtPin.Text;
 
-            // Перевірка даних
-            if (cardNumber == currentAccount.CardNumber && atm.Authenticate(currentAccount, pin))
+            currentAccount = GetAccountByCardNumber(cardNumber);
+
+            // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+            if (currentAccount != null && atmService.Authenticate(currentAccount, pin))
             {
                 MessageBox.Show($"Welcome, {currentAccount.FullName}!\nYour current balance is: {currentAccount.Balance:C}", "Authentication Successful");
 
-                // Оновлення тексту в інтерфейсі
+                // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                 lblWelcome.Text = $"Welcome, {currentAccount.FullName}";
                 lblBalance.Text = $"Balance: {currentAccount.Balance:C}";
                 txtAmount.Text = currentAccount.Balance.ToString("F2");
@@ -106,6 +114,12 @@ namespace ATMWindowsApp
                 try
                 {
                     decimal amount = decimal.Parse(txtAmount.Text);
+
+                    if (amount <= 0) {
+                        MessageBox.Shop("The amount cannot be less than 0!" , "ATM");
+                        return;
+                    }
+
                     if (atm.Withdraw(currentAccount, amount))
                     {
                         MessageBox.Show($"Successfully withdrew {amount:C}. New balance: {currentAccount.Balance:C}", "ATM");
